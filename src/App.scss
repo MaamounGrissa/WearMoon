@@ -975,6 +975,10 @@ header {
       width: 100%;
       margin-bottom: 100px;
 
+      @media(max-width: 767px) {
+        margin-bottom: 60px;
+      }
+
       .block {
         width: 32%;
         height: 330px;
